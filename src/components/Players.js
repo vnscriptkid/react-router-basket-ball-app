@@ -27,7 +27,6 @@ export default class Players extends Component {
 
   render() {
     const { loading, players } = this.state;
-    console.log("players: ", players);
     const { location, match } = this.props;
     return (
       <div className="clearfix">

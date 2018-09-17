@@ -42,7 +42,6 @@ export default class TeamPage extends Component {
       established,
       manager,
       coach,
-      record,
       wins,
       losses
     } = team;
